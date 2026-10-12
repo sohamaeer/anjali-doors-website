@@ -1,0 +1,15 @@
+{
+  "name": "anjali-doors-website",
+  "version": "1.0.0",
+  "description": "Full-stack Anjali Doors Website with React, Next.js, Node.js, Express & Nodemailer",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build:client": "cd client && npm run build",
+    "start": "concurrently \"cd server && npm start\" \"cd client && npm start\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.4"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "anjali-doors-server",
+  "version": "1.0.0",
+  "description": "Express and Nodemailer API backend for Anjali Doors",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch-path=index.js --watch-path=services index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0"
+  }
+}
